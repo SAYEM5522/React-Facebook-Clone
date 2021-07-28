@@ -1,0 +1,16 @@
+.feed {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .feed {
+    min-width: 500px !important;
+  }
+}

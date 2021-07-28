@@ -1,0 +1,7 @@
+.storyrells {
+  padding: 30px 65px;
+}
+.storyrells__detail {
+  display: flex;
+  align-items: center;
+}

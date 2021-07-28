@@ -1,0 +1,51 @@
+.room {
+  background-color: #fff;
+  padding: 10px 0px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 550px !important;
+  margin-bottom: 15px;
+}
+.room__top {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.room__top--left {
+  display: flex;
+  align-items: center;
+}
+.room__top--left > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.room__top--left > p {
+  color: #65676b;
+  margin-right: 10px;
+}
+.room__bottom {
+  display: flex;
+  align-items: center;
+}
+.room__avatar {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  cursor: pointer;
+}
+.room__icon {
+  color: #2e81f4;
+  font-size: 26px !important;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.room__top--right > p {
+  margin: 3px 15px;
+  color: #2e81f4;
+  cursor: pointer;
+}
+.room__top--right:hover {
+  background-color: #eff2f5;
+  border-radius: 5px;
+}
